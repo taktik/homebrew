@@ -6,8 +6,6 @@ class Oz < Formula
   version "#@@git_version"
   sha256 "f6871d7144c2d305637442563556ab0b98b3a8b9f603d67887dcb0167a7e994f"
 
-  bottle :unneeded
-
   def install
     jar = "client-cli-#@@git_version.jar"
     libexec.install jar
