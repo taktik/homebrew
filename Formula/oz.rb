@@ -6,9 +6,6 @@ class Oz < Formula
   version "3.3.1661"
   sha256 "047328a2f933b17da655fbe4cde7389589e54bf9d47fc8c4bf20f4cc29ad3d14"
 
-
-  depends_on :java => "1.8+"
-
   bottle :unneeded
 
   def install
